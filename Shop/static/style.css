@@ -1,0 +1,138 @@
+img{
+    width:400px;
+    height:400px;
+}
+body{
+    font-family: sans-serif;
+}
+.category-title{
+    text-align: center;
+    font-size:70px;
+}
+.btn-wrap{
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:50px;
+}
+.btn{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+.products, .categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 80%;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+.product{
+    margin:10px;
+}
+.product-page{
+    display: flex;
+    flex-direction: row;
+    max-width:90%;
+    margin:0 auto;
+}
+.menu-history{
+    max-width:80%;
+    display:flex;
+    flex-direction:row;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.menu-history a{
+    font-size: 30px;
+    color: black;
+    padding:5px;
+}
+.product-gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-gallery img{
+    padding:5px;
+}
+.description-title{
+    font-size:46px;
+}
+.categories{
+    height:100%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.category{
+    width:300px;
+    height:125px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    color:white;
+    border:3px solid white;
+    font-weight: 900;
+    margin:30px;
+    font-size:50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    font-size:30px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-bottom:100px;
+}
+.header a{
+    color:black;
+}
+.header .menu, .header a{
+    width:50%;
+}
+.header .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.description-descr{
+    font-size:20px;
+}
+.description-price{
+    font-size:35px;
+}
+.product-description{
+    margin:50px;
+    max-width: 40%;
+}
+.product-gallery img, .category{
+    transition: all .2s ease-in-out;
+}
+.product-gallery img:hover, .category:hover{
+    transform: scale(1.2);
+}
+.cats_body{
+    height:100vh;
+    margin:0;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
