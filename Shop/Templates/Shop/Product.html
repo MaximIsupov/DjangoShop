@@ -1,7 +1,7 @@
 {% extends "Shop/base.html" %}
 {% block content %}
     <div class="menu-history">
-        <a href={% url 'page_categories' %}>Категории → </a>
+        <a href={% url 'page_categories' %}>Список брендов → </a>
         <a href={% url 'index' product.category_name.id %}> {{ product.category_name }} </a>
     </div>
     <h1 class="category-title">{{ product.category_name }}</h1>
