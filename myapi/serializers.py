@@ -24,7 +24,7 @@ class CategorySerializer(serializers.HyperlinkedModelSerializer):
 
 class ImgSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = Product
+        model = Img
         fields = [
             'alt',
             'src',
